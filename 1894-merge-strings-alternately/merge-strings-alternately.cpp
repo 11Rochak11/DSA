@@ -3,7 +3,6 @@ public:
     string mergeAlternately(string word1, string word2) {
         int i=0;
         int j=0;
-        int maxi= max(word1.size(),word2.size());
         string str="";
         while(i<word1.size() && j<word2.size()){
             str+=word1[i];
