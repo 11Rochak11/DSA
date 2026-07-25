@@ -5,7 +5,7 @@
 
 var createCounter = function(init) {
     const temp=init;
-    return({
+    return {
         increment:()=>{
             init++;
             return init;
@@ -19,7 +19,7 @@ var createCounter = function(init) {
             init=temp;
             return init;;
         }
-    })
+    }
     
 };
 
